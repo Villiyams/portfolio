@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <link rel="stylesheet" href="style.css"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="stylesheet">
+    <title>portfolio
+    </title>
+
+    <script type="text/javascript">
+        function sendEmail() {
+          Email.send({
+            Host: "smtp.gmail.com",
+            Username: "sender@email_address.com",
+            Password: "Enter your password",
+            To: 'patelvilliyams@gmail.com',
+            From: "sender@email_address.com",
+            Subject: "Sending Email using javascript",
+            Body: "Well that was easy!!",
+          })
+            .then(function (message) {
+              alert("mail sent successfully")
+            });
+        }
+      </script>
+
+</head>
+
+<body class="body1">   
+
+    <nav class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#About">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#Contact">Contact</a>
+    </nav>
+ <section class="sec1" id="Home">
+ <div class="div1">
+
+    <img class="img1" src="myphoto.JPG" height="50%" width="70%">
+    </div>
+
+    <div class="div1">
+    <center> <p class="p1"  >Hi,I'm Villiyams Patel</p>
+        <p class="p2">Web Developer</p>
+    <a href="resume.pdf" class="button1">Resume</a>
+    </center> 
+</div>
+<br>
+<br>
+<br>
+</section>
+
+<hr class="hr">
+<hr class="hr">
+
+
+ <section id="About">
+ <div class="div2">
+    <center>
+        <p class="p2" >About Us</p>
+    </center>
+  <img class="img2" src="myphoto.JPG" w>
+       <center>
+        <P class="p3">My name is Villiyams.I'm web developer.I am study in Information Technology in Goverment Engineering Collage, Modasa.
+            My skills in Html,Css and Javascript.My hobbies is Playing Cricket,Chess,Listen Music.I believe in Hardwork.
+        </P>
+    </center>
+    
+   
+    </table>
+</section>
+<section class="sec2" >
+    <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <hr class="hr">
+    <p class="p4" >skills  </p>
+            <ul class="ul1">
+                <li>Leadership</li>
+                <li>Communication</li>
+                <li>Programing Language</li>
+                <li>Problem Solving</li>
+               
+            </ul>
+      
+            
+            <div class="div3">
+                <p class="p4">Technical Skills</p>
+            <h2 class="h2">C</h2><div class="container">
+                <div class="Skills C">80%</div>
+            </div>
+            <h2 class="h2">HTML</h2><div class="container">
+                <div class="Skills HTML">80%</div>
+            </div>
+            <h2 class="h2">CSS</h2><div class="container">
+                <div class="Skills CSS">80%</div>
+            </div>
+            <h2 class="h2">Javascript</h2><div class="container">
+                <div class="Skills Javascript">60%</div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+</div>       
+</div> 
+</section> 
+
+<section id="Contact" class="sec3">
+    <hr class="hr">
+<hr class="hr">
+    <form  method="post">
+<footer>
+    <center> <p class="p2" >Contacts</p></center>
+    <div class="footer">
+     <input type="name" name="Name"  placeholder="Name" autocomplete="off" />
+     <input type="number" name="Mobile Number"  placeholder="Mobile Number" autocomplete="off"/>
+     <input type="email" name="Email"  placeholder="Email"  autocomplete="off" required/>
+    </div> 
+<div class="div4">
+    <center><textarea class="textarea" rows="5" cols="50" placeholder="massage"></textarea>
+    <button  class="button2"  onclick="sendEmail()" >send</button>
+    </center> 
+</footer>
+</form>
+</div>
+<br>
+<br>
+<br>
+</section>    
+</body>
+</html>
